@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        WEBEX_TOKEN   = credentials('webex-bot-token')
+        WEBEX_TOKEN   = credentials('jenkins-build-bot-token')
         WEBEX_ROOM_ID = credentials('webex-room-id')
     }
 
