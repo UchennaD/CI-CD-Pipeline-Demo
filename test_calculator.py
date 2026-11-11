@@ -19,7 +19,7 @@ class TestCalculator(unittest.TestCase):
             divide(1, 0)
 
     def test_add_negative_numbers(self):
-        self.assertEqual(add(-1, -1), -3)
+        self.assertEqual(add(-1, -1), -2)
 
 if __name__ == "__main__":
     unittest.main()
